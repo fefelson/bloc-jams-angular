@@ -125,6 +125,10 @@
             }
         };
         
+        /**
+         * @function next
+         * @desc identify next song
+         */
         SongPlayer.next = function() {
             var currentSongIndex = getSongIndex(SongPlayer.currentSong);
             currentSongIndex++;
